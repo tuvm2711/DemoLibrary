@@ -33,6 +33,7 @@ public class CustomLayout extends RelativeLayout {
 
     }
 
+
     private  void initLayoutCus(){
         LayoutInflater.from(getContext()).inflate(R.layout.layout_lib,this,true);
         Button btn =this.findViewById(R.id.button);
